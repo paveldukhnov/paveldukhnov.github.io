@@ -1,1 +1,93 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Booking</title>
+</head>
+
+
+<body>
+
+  <div class="work-area">
+     <div class="top-text"><b>The best destinations</b></div>
+   
+       <div class="type-bar">
+         <button class="button-navigation" id="button1">Regions</button>
+         <button class="button-navigation button-disabled" id="button2">Cities</button>
+         <button class="button-navigation button-disabled" id="button3">Places of interest</button>
+       </div>  
+
+    <div>
+
+        <div id="block1"> 
+           <div class="region">
+               <div class="img maldives-img"> <div class="maldives-wrapper"> <img src="./images/Maldives.png" alt="maldives"> </div> <div class="text">Maldives</div> </div>
+               <div class="img spain-img"> <div class="spain-wrapper"> <img src="./images/Spain.png" alt="spain"> </div> <div class="text">Spain</div> </div>
+               <div class="img norway-img"> <div class="norway-wrapper"> <img src="./images/Norway.png" alt="norway"> </div> <div class="text">Norway</div> </div>
+               <div class="img island-img"> <div class="island-wrapper"> <img src="./images/Island.png" alt="island"> </div> <div class="text">Island</div> </div>
+           </div>
+
+           <div class="region">
+             <div class="img japan-img"> <div class="japan-wrapper"> <img src="./images/Japan.png" alt="japan"> </div> <div class="text">Japan</div> </div>
+             <div class="img france-img"> <div class="france-wrapper"> <img src="./images/France.png" alt="france"> </div> <div class="text">France</div> </div>
+             <div class="img scotland-img"> <div class="scotland-wrapper"> <img src="./images/Scotland.png" alt="scotland"> </div> <div class="text">Scotland</div> </div>
+             <div class="img russia-img"> <div class="russia-wrapper"> <img src="./images/Russia.png" alt="russia"> </div> <div class="text">Russia</div> </div>
+           </div>
+        </div>
+
+    <div class="disabled" id="block2">   
+        <div>    
+          <div class="region">
+              <div class="img maldives-img"> <div class="maldives-wrapper"> <img src="./images/best cities/berlin.png" alt="maldives"> </div> <div class="text">Berlin, Germany</div> </div>
+              <div class="img spain-img"> <div class="spain-wrapper"> <img src="./images/best cities/paris.png" alt="spain"> </div> <div class="text">Paris, France</div> </div>
+              <div class="img norway-img"> <div class="norway-wrapper"> <img src="./images/best cities/budapest.png" alt="norway"> </div> <div class="text">Budapest, Hungary</div> </div>
+              <div class="img island-img"> <div class="island-wrapper"> <img src="./images/best cities/london.png" alt="island"> </div> <div class="text">London, United Kingdom</div> </div>
+          </div>
+
+          <div class="region">
+            <div class="img japan-img"> <div class="japan-wrapper"> <img src="./images/best cities/barcelona.png" alt="japan"> </div> <div class="text">Barcelona, Spain</div> </div>
+            <div class="img france-img"> <div class="france-wrapper"> <img src="./images/best cities/tbilisi.png" alt="france"> </div> <div class="text">Tbilisi, Georgia</div> </div>
+            <div class="img scotland-img"> <div class="scotland-wrapper"> <img src="./images/best cities/moscow.png" alt="scotland"> </div> <div class="text">Moscow, Russia
+            </div> </div>
+            <div class="img russia-img"> <div class="russia-wrapper"> <img src="./images/best cities/amsterdam.png" alt="russia"> </div> <div class="text">Amsterdam, Netherlands</div> </div>
+          </div>
+       </div>
+    </div>   
+
+    <div class="disabled" id="block3">     
+        <div class="region">
+            <div class="img maldives-img"> <div class="maldives-wrapper"> <img src="./images/places of interest/Edinburgh Castle, Edinburgh, United Kingdom.png" alt="maldives"> </div> <div class="text">Edinburgh Castle,<br> Edinburgh, United Kingdom</div> </div>
+            <div class="img spain-img"> <div class="spain-wrapper"> <img src="./images/places of interest/Neuschwanstein, Fussen, Germany.png" alt="spain"> </div> <div class="text">Neuschwanstein, Fussen, Germany</div> </div>
+            <div class="img norway-img"> <div class="norway-wrapper"> <img src="./images/places of interest/Big Ben, London, United Kingdom.png" alt="norway"> </div> <div class="text">Big Ben, London, United Kingdom</div> </div>
+            <div class="img island-img"> <div class="island-wrapper"> <img src="./images/places of interest/Colosseum, Roma, Italy.png" alt="island"> </div> <div class="text">Colosseum, Roma, Italy</div> </div>
+        </div>
+
+        <div class="region">
+          <div class="img japan-img"> <div class="japan-wrapper"> <img src="./images/places of interest/Matterhorn, Zermatt, Switzerland.png" alt="japan"> </div> <div class="text">Matterhorn, Zermatt, Switzerland</div> </div>
+          <div class="img france-img"> <div class="france-wrapper"> <img src="./images/places of interest/Morskie Oko, Poland.png" alt="france"> </div> <div class="text">Morskie Oko, Poland</div> </div>
+          <div class="img scotland-img"> <div class="scotland-wrapper"> <img src="./images/places of interest/Krka, Croatia.png" alt="scotland"> </div> <div class="text">Krka, Croatia</div> </div>
+          <div class="img russia-img"> <div class="russia-wrapper"> <img src="./images/places of interest/Cabo da roca, Sintra, Portugal.png" alt="russia"> </div> <div class="text">Cabo da roca, Sintra, Portugal</div> </div>
+        </div>
+    </div>  
+
+      <button class="round-arrow"> 
+        <img src="./images/Arrow.svg" alt="arrow"> 
+      </button>
+
+     </div>
+
+    </div>
+
+  </div>
+
+  <script src="./js/index.js" type="module"></script>
+
+</body>
+
+
+</html>

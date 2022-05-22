@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.work-area {
+    margin: 0 auto;
+    width: 1440px;
+    height: 3050px;
+}
+
+:root {
+    --main-text-color: #383838;
+  }
+
+.top-text {
+    font-family: 'Roboto' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    margin: 0 auto;
+    width: 388px;
+    height: 57.18px;
+    color: var(--main-text-color);
+    margin-top: 10.14%;
+}
+
+.type-bar {
+    width: 620px;
+    height: 64px;
+    border-radius: 8px;
+    display: flex;
+    margin-top: 6.96%;
+    margin-left: 7.22%;
+    justify-content: space-between;
+}
+
+.type-bar > .regions-disabled {
+    color: var(--main-text-color);
+    background-color: #E5E5E5;
+}
+
+.regions-disabled:hover {
+    background-color: #3077C6;
+    color: white;
+}
+
+.cities-disabled:hover {
+    background-color: #3077C6;
+    color: white;
+}
+
+.places-of-interest-disabled:hover {
+    background-color: #3077C6;
+    color: white;
+}
+
+.region {
+    width: 1231px;
+    height: 379px;
+    margin: 0 auto;
+    margin-top: 4.62%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #3077C6;
+}
+
+.text {
+    margin-top: 24px;
+    width: 291px;
+    height: 57px;
+}
+
+.round-arrow {
+    background-color: #F3F3F4;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 0 auto;
+    margin-top: 3.38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.cities:hover {
+    background-color: #3077C6;
+    color: white;
+}
+
+.places-of-interest:hover {
+    background-color: #3077C6;
+    color: white;
+}
+
+.round-arrow:hover {
+    background-color: #e2e2e2;
+    filter: drop-shadow(0px 4px 4px rgba(82, 6, 6, 0.25));    
+}
+
+.disabled {
+    display: none;
+}
+
+.button-navigation {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    background-color: #3077C6;
+    border-radius: 8px;
+    border: none;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.type-bar > .button-disabled {
+    background-color: #E5E5E5;
+    color: var(--main-text-color);
+}
